@@ -24,7 +24,11 @@
     "gulp-cli": "^2.3.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
-    "i": "^0.3.6"
+    "i": "^0.3.6",
+    "node-sass": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "init": "^0.1.2",
+    "npm": "^7.6.3"
+  }
 }
