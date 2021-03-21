@@ -2,7 +2,6 @@
 
 * {
   font-family: "Museo Sans Cirl", sans-serif;
-  font-family: "Roboto";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,3 +15,5 @@
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
+@import "blocks/title";
+@import "blocks/advantages";
