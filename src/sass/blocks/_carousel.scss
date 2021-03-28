@@ -1,12 +1,9 @@
 .carousel {
     padding: 81px 0;
-
     &__inner {
         position: relative;
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
-        
-    
         .slick-track{
             display: flex;
             justify-content: center;
@@ -31,6 +28,18 @@
         right: -66px;
         left: auto;
     }
-
+    .slick-dots {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        li {            
+            list-style: none;
+            margin-right: 20px;
+            &:nth-child(3) {
+                margin-right: none;
+            }
+        }
+    }
+    
 }
 

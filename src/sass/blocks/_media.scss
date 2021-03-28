@@ -38,6 +38,20 @@
         font-size: 32px;
         line-height: 42px;
     }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            max-width: 550px;
+            div {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .slick-dots {
+        margin-top: 30px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -88,6 +102,17 @@
         font-size: 28px;
         &_left {
             line-height: 30px;
+        }
+    }
+    .carousel {
+        padding: 30px 0;
+        &__inner {
+            max-width: 550px;
+            div {
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
 }
@@ -201,7 +226,21 @@
             height: 40px;
             font-size: 14px;
         }
-    } 
+    }
+    .carousel {
+        padding: 30px 0;
+        &__inner {
+            max-width: 350px;
+            div {
+                img {
+                    width: 100%;
+                }
+            }
+        }        
+        .slick-dots {
+            margin-top: 20px;
+        }
+    }
 }
 
 @media(max-width: 480px) {
@@ -275,6 +314,9 @@
             margin-top: 30px;
         }
     }
+    .carousel {
+        padding: 25px 0;
+    }
 }
 
 @media(max-width: 300px) {
@@ -294,5 +336,20 @@
             font-size: 14px;
             line-height: 20px;
         }
-    }  
+    }
+    
+    .carousel {
+        padding: 20px 0;
+        &__inner {
+            max-width: 240px;
+            div {
+                img {
+                    width: 100%;
+                }
+            }
+            .slick-dots {
+                margin-top: 10px;
+            }
+        }
+    }
 }
