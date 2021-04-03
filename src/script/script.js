@@ -68,4 +68,32 @@ $(document).ready(function () {
             $('.overlay, #order').fadeIn('slow');
         })
     });
+
+    function validateForms(form) {
+        $(form).validate({
+            rules: {
+                name: "required",
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: "Введите ваше имя",
+                phone: {
+                    required: "Введите свое имя",
+                    phone: "Не правильно введен номер телефона"
+                },
+                email: {
+                    required: "Введите вашу электронную почту для связи",
+                    email: "Не правильно введен адрес почты"
+                }
+            }
+        });
+    };
+
+    validateForms('#consultation-form');
+    validateForms('#consultation form');
+    validateForms('#order form');
 });
