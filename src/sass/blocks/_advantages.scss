@@ -1,4 +1,5 @@
 .advantages {
+    background-color: #F6F6F6;
     padding: 70px 0 65px;
     &__items {
         display: flex;
@@ -14,6 +15,18 @@
 .item {
     &__img {
         margin-bottom: 35px;
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+        &_cupshake{
+            animation-name: cupshake;
+            animation-duration: 0.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
     }
     &__header {
         margin-bottom: 20px;
