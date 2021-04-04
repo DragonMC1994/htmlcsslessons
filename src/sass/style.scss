@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+}
+
 .container {
   max-width: 950px;
   margin: 0 auto;
@@ -24,4 +28,5 @@
 @import "blocks/reviews";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/pageup";
 @import "blocks/media";
