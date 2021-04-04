@@ -14,11 +14,41 @@
     from {
         transform: rotate(0deg);
     }
-    25% {
+    10% {
         transform: rotate(20deg);
     }
-    75% {
+    20% {
         transform: rotate(-20deg);
+    }
+    30% {
+        transform: rotate(20deg);
+    }
+    40% {
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    60% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-20deg);
+    }
+}
+
+@keyframes shoe {
+    from {
+        transform: rotate(0deg);
+    }
+    35% {
+        transform: rotate(70deg);
+    }
+    80% {
+        transform: rotate(0deg);
     }
     to {
         transform: rotate(0deg);

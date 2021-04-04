@@ -23,7 +23,13 @@
         }
         &_cupshake{
             animation-name: cupshake;
-            animation-duration: 0.5s;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+        &_shoe {
+            animation-name: shoe;
+            animation-duration: 1.0s;
             animation-timing-function: ease;
             animation-iteration-count: infinite;
         }
